@@ -34,7 +34,7 @@ const editTodo = async (updatedTodo) => {
     `http://localhost:5000/todos/${updatedTodo.id}`,
     updatedTodo
   );
-  setTodos(todos.map(t => t.id === updatedTodo.id ? res.data : t));
+  setTodos(todos.map(t => t.id === updatedTodo.id ? res.data : t))
 };
 
 
