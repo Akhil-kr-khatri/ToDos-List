@@ -55,14 +55,3 @@ This is a **full-stack Todo application** built using the **MERN stack** (MongoD
 
 ---
 
-## ⚙️ Environment Variables
-
-Create `.env` files in both `frontend/` and `backend/` folders.
-
-```env
-# Backend .env
-MONGO_URL=mongodb://<private-ip>:27017/tododb
-PORT=5000
-
-# Frontend .env
-REACT_APP_API_URL=http://<load-balancer-ip>:5000
